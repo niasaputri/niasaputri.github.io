@@ -21,23 +21,32 @@ body {
 /*End Debug*/
 
 /*Start Container*/
+
 .container {
     margin: 10px auto;
     overflow: auto;
     width: 90%;
 }
-
 .container-full {
     margin: 10px auto;
     overflow: auto;
     width: 100%;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
 }
+
 /*End Container*/
 
 /*Start Logo*/
 .logo   {
     text-align: center;
     background-color: brown
+}
+.logo program {
+    text-align: center;
+    background-color: brown;
 }
 /*End Logo*/
 
@@ -202,3 +211,59 @@ h1,h2,h3,h4,h5,h6 {
         padding-left: 20px;
     }
 /*End Box*/
+
+/* Start Testimonial*/
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial*/
+/*Start Menu Sekunder*/
+.menu-sekunder-one {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: : uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one{
+    width: 40%
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/* Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright
